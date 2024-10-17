@@ -13,7 +13,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -245,7 +245,7 @@ footer {
         display: none;
     }
 
-    .menu {
+       .menu {
         grid-template-columns: 1fr 2fr;
         align-items: center;
     }
@@ -266,6 +266,11 @@ footer {
     .menu-list ul li {
         display: inline-block;
         margin-right: 14px;
+    }
+
+    .menu-list ul li a {
+        display: inline-block;
+        text-decoration: none;
     }
 
     .profile {
@@ -429,7 +434,7 @@ footer {
         display: none;
     }
 
-    .menu {
+      .menu {
         grid-template-columns: 1fr 2fr;
         align-items: center;
     }
@@ -539,6 +544,7 @@ footer {
         grid-template-rows: repeat(2, auto);
         gap: 10px;
         margin: 32px auto;
+        right: 0;
     }
 
     .gallery-item {
